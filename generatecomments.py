@@ -119,7 +119,7 @@ class CommentGenerator:
         while True:
             print("Student data file should be csv with at least the following fields: "
                   "FIRST NAME, LAST NAME, SEX")
-            filename = input("Student data file path: ")
+            filename = input("Student data file path (default is ~/StudentList.csv): ")
 
             if filename == '':
                 filename = "~/StudentList.csv"
@@ -212,10 +212,27 @@ class CommentGenerator:
             if not inserted:  # last category?
                 f.write(comment + "\n")
 
-    def custom_comment(self, category):
+    def remove_comment_from_file(self, category):
+        index = int(input("Which comment template do you want to delete? "))
+        comment_to_remove = self.comments[category][index]
+        print(comment_to_remove)
+        confirm = input("Are you sure you want to delete this template? ")
+        if confirm == 'y':
+            with open(self.comment_file) as f:
+                original = f.readlines()
+
+            with open(self.comment_file, 'w') as f:
+                for line in original:
+                    if line.strip() != comment_to_remove.strip():
+                        f.write(line + "\n")
+                    else:  # found the line, also remove from current list
+                        self.comments[category].remove(comment_to_remove)
+
+    def custom_comment(self, category, save_option=True):
         comment = input("Enter your custom comment (use XE XIS and XIM to allow for easy reuse): ")
 
-        gotta_save = input("Do you want to save this comment for future use under the {} category? (y) or n: ".format(category))
+        prompt = "Do you want to save this comment for future use under the {} category? (y) or n: ".format(category)
+        gotta_save = input(prompt) if save_option else 'n'
 
         if gotta_save == '' or gotta_save.lower()[0] != 'n':
             self.insert_into_comment_file(comment, category)
@@ -224,8 +241,29 @@ class CommentGenerator:
 
     def remove_comment(self, student):
         self.print_header(student)
-        index = input("Which comment do you want to remove?")
+        index = input("Which comment do you want to remove (a for all)? ")
+        if index == 'a':
+            student.comments = []
         student.comments.pop(int(index))
+
+    def move_comment(self, student):
+        self.print_header(student)
+        index = int(input("Which comment do you want to move? "))
+        comment = student.comments.pop(index)
+        print(student.comment_string())
+        index = int(input("Move it before which comment? "))
+        student.comments.insert(index, comment)
+
+    def update_gender(self, student):
+        self.print_header(student)
+        choice = input("Choose a gender: M, F, or N (neutral): ")
+        if choice.upper() in ['M', 'F', 'N']:
+            student.sex = choice.upper()
+
+    def update_name(self, student):
+        self.print_header(student)
+        choice = input("First name to use in comments: ")
+        student.firstname = choice
 
     def save(self):
         with open(self.save_file, 'w') as f:
@@ -242,8 +280,8 @@ class CommentGenerator:
 
     def print_header(self, student):
         clear()
-        print("Generating comments for: {}{} {}{}:".
-              format(bcolors.PURPLE, student.firstname, student.lastname, bcolors.ENDC))
+        print("Generating comments for: {}{} {}{} ({}):".
+              format(bcolors.PURPLE, student.firstname, student.lastname, bcolors.ENDC, student.sex))
         printc(student.comment_string())
 
     def choose_comment(self, student):
@@ -256,19 +294,34 @@ class CommentGenerator:
                 print("{}: {}".format(i, cat))
             # print("c: CUSTOM")
             print("-------- OR --------")
-            print("r: remove part of this comment")
-            print("s: save and move to next student")
-            print("q: save and quit program")
+            print("change (g)ender or (n)ame | "
+                  "(c)ustom comment | "
+                  "(r)emove or (m)ove a comment | "
+                  "(s)ave and next or save and (q)uit"
+                  )
 
             choice = input()
+
             if choice == 'q':
                 self.save()
+                clear()
                 sys.exit()
             elif choice == 's':
                 self.save()
                 return None, "complete"
             elif choice == 'r':
                 self.remove_comment(student)
+                return None, "continue"
+            elif choice == 'c':
+                return self.custom_comment(category=None, save_option=False), "new"
+            elif choice == 'g':
+                self.update_gender(student)
+                return None, "continue"
+            elif choice == 'n':
+                self.update_name(student)
+                return None, "continue"
+            elif choice == 'm':
+                self.move_comment(student)
                 return None, "continue"
             else:
                 choice = int(choice)
@@ -279,11 +332,19 @@ class CommentGenerator:
             print("Choose a {} Comment:".format(category))
             for i, com in enumerate(self.comments[category]):
                 print("{}: {}".format(i, com))
-            print("c: CUSTOM")
+            print("-------- OR --------")
+            print("a: Add a new templated comment")
+            print("r: remove a templated comment")
+            print("b: Go back")
 
             choice = input()
-            if choice == 'c':
+            if choice == 'a':
                 return self.custom_comment(category), "new"
+            if choice == 'r':
+                self.remove_comment_from_file(category)
+                return None, "continue"
+            elif choice == 'b':
+                return None, "continue"
 
             choice = int(choice)
             return self.comments[category][choice], "new"
