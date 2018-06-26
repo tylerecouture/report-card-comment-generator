@@ -44,6 +44,7 @@ def parse_pronouns(comment, sex='N', name=None):
         comment = comment.replace(p, PRONOUNS[p][sex])
 
     comment = comment.replace('NAME', name.capitalize())
+    comment = comment.lstrip()
     return comment[0].upper() + comment[1:]
 
 
@@ -81,6 +82,10 @@ class Student:
             s += "({}) {} ".format(i, c)
         return parse_pronouns(s, self.sex, self.firstname) if s else s
 
+    def final_comment_string(self):
+        s = ' '.join(self.comments)
+        return parse_pronouns(s, self.sex, self.firstname) if s else s
+
 
 class CommentGenerator:
 
@@ -88,6 +93,7 @@ class CommentGenerator:
         self.comment_file = None
         self.students = self.generate_students(self.get_student_list())
         self.comments = self.get_comment_dict()
+        self.save_file = "saved_comments.txt"
 
     def generate_students(self, student_list):
         students = []
@@ -210,6 +216,13 @@ class CommentGenerator:
         index = input("Which comment do you want to remove?")
         student.comments.pop(int(index))
 
+    def save(self):
+        with open(self.save_file, 'w') as f:
+            for student in self.students:
+                f.write(student.firstname.upper() + " " + student.lastname.upper() + "\n")
+                f.write(student.final_comment_string())
+                f.write("\n\n")
+
     def get_category(self, index):
         return list(self.comments.keys())[index]
 
@@ -238,10 +251,10 @@ class CommentGenerator:
 
             choice = input()
             if choice == 'q':
-                # save
+                self.save()
                 sys.exit()
             elif choice == 's':
-                # save
+                self.save()
                 return None, "complete"
             elif choice == 'r':
                 self.remove_comment(student)
