@@ -44,8 +44,7 @@ def parse_pronouns(comment, sex='N', name=None):
         comment = comment.replace(p, PRONOUNS[p][sex])
 
     comment = comment.replace('NAME', name.capitalize())
-    comment = comment.lstrip()
-    return comment[0].upper() + comment[1:]
+    return comment
 
 
 def replace_nth_with_name(text, pronouns, n=3):
@@ -68,6 +67,16 @@ def replace_nth_with_name(text, pronouns, n=3):
     return new_text
 
 
+def cap_matches(match):
+    return match.group().capitalize()
+
+
+def capitalize_sentences(text):
+    # https://stackoverflow.com/a/22801162/2700631
+    p = re.compile(r'((?<=[\.\?!]\s)(\w+)|(^\w+)|(?<=\)\s)(\w+))')
+    return p.sub(cap_matches, text)
+
+
 class Student:
 
     def __init__(self, firstname, lastname, sex):
@@ -80,11 +89,13 @@ class Student:
         s = ""
         for i, c in enumerate(self.comments):
             s += "({}) {} ".format(i, c)
-        return parse_pronouns(s, self.sex, self.firstname) if s else s
+        s = parse_pronouns(s, self.sex, self.firstname) if s else s
+        return capitalize_sentences(s)
 
     def final_comment_string(self):
         s = ' '.join(self.comments)
-        return parse_pronouns(s, self.sex, self.firstname) if s else s
+        s = parse_pronouns(s, self.sex, self.firstname) if s else s
+        return capitalize_sentences(s)
 
 
 class CommentGenerator:
@@ -277,7 +288,7 @@ class CommentGenerator:
             choice = int(choice)
             return self.comments[category][choice], "new"
 
-        except IndexError:
+        except (IndexError, ValueError):
             print("That wasn't a valid option!")
             return None, "continue"
 
