@@ -1,85 +1,339 @@
 # TERM MARKS
+
+
+
 XE has struggled to complete XIS course projects.
+
+
+
 In a course where students are expected to submit their work every day for assessemnet, XE only submits his work about once per week.
+
+
+
 In a course where students are expected to submit their work every day for assessment, XE has only submitted work XIS work a few times int he past month.
+
+
+
 If XE wants to pass this course, XE will need to start handing in XIS work on a more regular basis.
-Students are expected to submit work (or work in-progress) every day in this course.  XE will need to start handing in this work more regularily if XE wants to pass this course.
+
+
+
 Students are expected to submit work (or work in-progress) every day in this course.  XE will need to start handing in this work more regularily if XE wants to improve XIS mark.
+
+
+
 So far, XE has given the minimum effort required to maintain a passing mark.
+
+
+
+
+
+XIS limited attendance so far this semester is preventing XIM from succeeding in this course. XE can still pass, but XE will need to start attending class and submitting work regularily.
 # TEMPERAMENT AND ATTITUDE
+
+
+
  XE was a pleasure to have in the class.
+
+
+
  XE was a pleasure to have in the class when XE was able to attend.
+
+
+
  XE was an enjoyable character to have in the classroom this semester.
+
+
+
  XE was a dynamic and enjoyable personality to have in the Hackerspace.
+
+
+
  XE was a quiet, focused student.
+
+
+
  XE showed great creativity during this course.
+
+
+
  XE resisted the digital platform we used to run this course.
+
+
+
  Thank you for all your help with Hackerspace related projects.
+
+
+
  Despite struggling with this course, I enjoyed having XIM in the class.
+
+
+
  XE approached the course with a positive attitude.
+
+
+
  XE was a machine, plowing through the course content available to him.
+
+
+
  I enjoyed having XIM in my classroom this semester.
+
+
+
  I greatly appreciate the effort XE put into assisting XIS colleagues this semester.
+
+
+
  XE appeared to enjoy the course, but was not interested enough to put in much more than the minimal effort to pass.
+
+
+
  # COURSE SPECIFIC
+
+
+
  It was wonderful to see XIS art improve as XE became more comfortable with digital media.
+
+
+
  It was fun to watch XIM apply XIS unique style of art to digital media.
+
+
+
  XE is a wonderful artist and I hope to see XIM expand XIS digital art skills in a future course.
+
+
+
  XE is an amazing artist, but I would like to see XIM expand XIS digital art skills to try new tools and styles.
+
+
+
  XIS dedication to learning computer programming, and XIS obvious enjoyment of this challenge earned XIM the school's Applied Skills - Computer Technology Award.
+
+
+
  XIS creative use of Blender resulted in some awesome art this semester.
+
+
+
  This semester, XE focused on expanding XIS skills with vector graphics.
+
+
+
  XE is a wonderful artist and it was great to see XIS skills grow over the last several years.
+
+
+
  Throughout the course, XE dabbled in a little bit of everything the Hackerspace had to offer.
+
+
+
  I hope XE considers advancing XIS computer programming skills in a future course.
+
+
+
  XE has the potential to become a great programmer and I hope he takes advantage of what the Hackerspace has to offer in future courses.
+
+
+
  XE is already a great programmer, and has the potential to do amazing things in the Hackerspace before he graduates.
+
+
+
  I was particularly impressed with XIS interest in exploring the limits of the digital tools available to XIM.
+
+
+
  The effort XE put into learning the sometimes difficult subject of computer programming was appreciated!
+
+
+
  I hope XE returns to the Hackerspace in the future to expand on XIS coding skills.
+
+
+
  XE spent a lot of time exploring some of the rarely used digitsic software we have available.
+
+
+
  It was great to see XIM expand XIS digital photography skills this semester.
+
+
+
  XE has attained a great foundation in the Unity 3D game engine this semester, and I hope XE uses this to create some cool projects in the future here!
+
+
+
  # GREAT MARKS
+
+
+
  XE was continually pushing themselves to take on new challenges during this course.
+
+
+
  XIS mark was well earned.
+
+
+
  # LOW MARKS
+
+
+
  Unfortunately, XE did not complete many assignments during the second term, causing XIS mark to drop significantly.
+
+
+
  XIS poor attendance/punctuality had a significantly negative impact on XIS mark.
+
+
+
  XE completed the bare minimum required to pass the course.
+
+
+
  Unfortunately, XIS lack of punctuality/attendance prevented XIM from attaining a better mark.
+
+
+
  XE did not take advantage of the opportunity to come in during Flex or Assessment Week to complete missing assignments.
+
+
+
  XE made a great effort during assessment week to ensure XE passed the course.  I would suggest XE might be better off completing more work during the semester than waiting until the last minute!
+
+
+
  XE put in a great effort during assessment week to ensure a pass in the course.
+
+
+
  # FAIL
+
+
+
  Unfortunately, XIS lack of punctuality/attendance prevented XIM from being successful in this course.
+
+
+
  XE was not present for much of the semester.
+
+
+
  Unfortunately, XE was not motivated to complete enough assignments to demonstrate the minimum learning required to pass this course.
+
+
+
  XE did not take advantage of the opportunity to come in during Flex or Assessment Week to complete missing assignments.
+
+
+
  XE was not present for the majority of the semester.
+
+
+
  XE was not present for most of the semester and as a result was unable to demonstrate the minimum learning required to pass the course.
+
+
+
  XE stopped participating in this course and as a result was unable to demonstrate the minimum learning required to pass the course.
+
+
+
  Although XE did put in significant effort during assessment week, it was too little too late.
+
+
+
  The language barrier may have been too high too succeed in this course full of technical language.
+
+
+
  XE stopped submitting assignment in the second semester, causing XIS mark to drop drastically.
+
+
+
  I do, however, hope that XE returns to the Hackerspace for a future course to give it another try.
+
+
+
  # NON-GRADS
+
+
+
  I look forward to having XIM back next semester.
+
+
+
  I hope to see XIM back in the future for another course in the Hackerspace!
+
+
+
  If XE returns in the future for another course in the Hackerspace I would encourage XIM to take advantage of the many other digital tools that are available to learn about.
+
+
+
  I am excited to see what XE does with XIS digital skills in future courses!
+
+
+
  I am excited to see what XE does with XIS programming skills in future courses!
+
+
+
  I am excited to see what XE does with XIS digital art skills in future courses!
+
+
+
  I am excited to see what XE does with XIS game design skills in future courses!
+
+
+
  I am excited to see what XE does with XIS 3d modelling and animation skills in future courses!
+
+
+
  I am excited to see what XE does with XIS digital photography skills in future courses!
+
+
+
  Unfortunately, XE did not appear to enjoy XIS time in this classroom.
+
+
+
  I look forward to having XIM back in the future for another course in Timberline's Digital Hackerspace.
+
+
+
  I look forward to having XIM back!
+
+
+
  I hope XE returns for another course in the Hackerspace to expand on the game design and programming skills XE learned working in the Unity Game Engine this semester.
+
+
+
  # GRADS
+
+
+
  It was a pleasure having you as a student for the past several years.
+
+
+
  Congrats and keep in touch!
+
+
+
  Good luck in life and keep in touch!
+
+
+
  I hope you keep in touch and let me know where your skills take you!
+
+
+
  Good luck with life after high school NAME!
+
+
+
