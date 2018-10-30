@@ -63,6 +63,10 @@ def replace_nth_with_name(text, pronouns, n=3):
             count += 1
         else:
             new_text += word
+
+        if word == 'NAME':
+            count = 1  # reset counter
+
         new_text += " "
     return new_text
 
@@ -88,7 +92,7 @@ class Student:
     def comment_string(self):
         s = ""
         for i, c in enumerate(self.comments):
-            s += "({}) {} ".format(i, c)
+            s += "({}{}{}) {} ".format(bcolors.BLUE, i, bcolors.ENDC, c)
         s = parse_pronouns(s, self.sex, self.firstname) if s else s
         return capitalize_sentences(s)
 
@@ -282,7 +286,8 @@ class CommentGenerator:
         clear()
         print("Generating comments for: {}{} {}{} ({}):".
               format(bcolors.PURPLE, student.firstname, student.lastname, bcolors.ENDC, student.sex))
-        printc(student.comment_string())
+        print(student.comment_string())
+        printc(student.final_comment_string())
 
     def choose_comment(self, student):
 
@@ -297,7 +302,7 @@ class CommentGenerator:
             print("change (g)ender or (n)ame | "
                   "(c)ustom comment | "
                   "(r)emove or (m)ove a comment | "
-                  "(s)ave and next or save and (q)uit"
+                  "(s)ave and (n)ext or save and (q)uit"
                   )
 
             choice = input()
@@ -308,6 +313,8 @@ class CommentGenerator:
                 sys.exit()
             elif choice == 's':
                 self.save()
+                return None, "complete"
+            elif choice == 'n':
                 return None, "complete"
             elif choice == 'r':
                 self.remove_comment(student)

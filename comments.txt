@@ -2,34 +2,28 @@
 
 
 
-XE has struggled to complete XIS course projects.
+This teacher-guided, self-directed course was run in Timberline's Digital Hackerspace: a school-community operated workspace where students with common interests in computers, technology, and digital art can meet, socialize and collaborate. The goal of the Hackerspace is to develop students who are capable of using technical knowledge and creativity to overcome problems with playful cleverness. This course is taught in a classroom concurrent with five other courses, and students are not restricted to projects for only their specific course.
+
+So far, XE has given the minimum effort required to maintain a passing mark. Students are expected to submit work or work in-progress every day in this course. NAME will need to start handing in this work more regularly if XE wants to improve XIS mark. XIS current mark is XX%
+
+In a course where students are expected to submit their work every day for assessment, NAME has not submitted anything in over a month. If NAME wants to pass this course, XE will need to start handing in XIS work on a more regular basis. XIS current mark is XX%
+
+In a course where students are expected to submit their work every day for assessment, XE only submits XIS work about half the time. If NAME wants to pass this course, XE will need to start handing in XIS work on a more regular basis. XIS current mark is XX%
+
+In a course where students are expected to submit their work every day for assessment, XE only submits XIS work about once per week. If NAME wants to pass this course, XE will need to start handing in XIS work on a more regular basis. XIS current mark is XX%
+
+In a course where students are expected to submit their work every day for assessment, NAME has only submitted work XIS work a few times in the past month. If NAME wants to pass this course, XE will need to start handing in XIS work on a more regular basis. XIS current mark is XX%
 
 
+XIS limited attendance so far this semester is preventing XIM from succeeding in this course. Students are expected to submit work or work in-progress every day in this course. XE can still pass, but XE will need to start attending class and submitting work regularly. XIS current mark is XX%.
 
-In a course where students are expected to submit their work every day for assessemnet, XE only submits his work about once per week.
+XIS current mark is XX%.
 
-
-
-In a course where students are expected to submit their work every day for assessment, XE has only submitted work XIS work a few times int he past month.
-
-
-
-If XE wants to pass this course, XE will need to start handing in XIS work on a more regular basis.
-
-
-
-Students are expected to submit work (or work in-progress) every day in this course.  XE will need to start handing in this work more regularily if XE wants to improve XIS mark.
-
-
-
-So far, XE has given the minimum effort required to maintain a passing mark.
-
-
-
-
-
-XIS limited attendance so far this semester is preventing XIM from succeeding in this course. XE can still pass, but XE will need to start attending class and submitting work regularily.
 # TEMPERAMENT AND ATTITUDE
+
+
+
+
 
 
 
@@ -37,7 +31,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE was a pleasure to have in the class when XE was able to attend.
+
+
+
+
 
 
 
@@ -45,7 +47,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE was a dynamic and enjoyable personality to have in the Hackerspace.
+
+
+
+
 
 
 
@@ -53,7 +63,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE showed great creativity during this course.
+
+
+
+
 
 
 
@@ -61,7 +79,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Thank you for all your help with Hackerspace related projects.
+
+
+
+
 
 
 
@@ -69,7 +95,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE approached the course with a positive attitude.
+
+
+
+
 
 
 
@@ -77,7 +111,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I enjoyed having XIM in my classroom this semester.
+
+
+
+
 
 
 
@@ -85,7 +127,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE appeared to enjoy the course, but was not interested enough to put in much more than the minimal effort to pass.
+
+
+
+
 
 
 
@@ -93,7 +143,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  It was wonderful to see XIS art improve as XE became more comfortable with digital media.
+
+
+
+
 
 
 
@@ -101,7 +159,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE is a wonderful artist and I hope to see XIM expand XIS digital art skills in a future course.
+
+
+
+
 
 
 
@@ -109,7 +175,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XIS dedication to learning computer programming, and XIS obvious enjoyment of this challenge earned XIM the school's Applied Skills - Computer Technology Award.
+
+
+
+
 
 
 
@@ -117,7 +191,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  This semester, XE focused on expanding XIS skills with vector graphics.
+
+
+
+
 
 
 
@@ -125,7 +207,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Throughout the course, XE dabbled in a little bit of everything the Hackerspace had to offer.
+
+
+
+
 
 
 
@@ -133,7 +223,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE has the potential to become a great programmer and I hope he takes advantage of what the Hackerspace has to offer in future courses.
+
+
+
+
 
 
 
@@ -141,7 +239,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I was particularly impressed with XIS interest in exploring the limits of the digital tools available to XIM.
+
+
+
+
 
 
 
@@ -149,7 +255,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I hope XE returns to the Hackerspace in the future to expand on XIS coding skills.
+
+
+
+
 
 
 
@@ -157,7 +271,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  It was great to see XIM expand XIS digital photography skills this semester.
+
+
+
+
 
 
 
@@ -165,7 +287,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  # GREAT MARKS
+
+
+
+
 
 
 
@@ -173,7 +303,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XIS mark was well earned.
+
+
+
+
 
 
 
@@ -181,7 +319,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Unfortunately, XE did not complete many assignments during the second term, causing XIS mark to drop significantly.
+
+
+
+
 
 
 
@@ -189,7 +335,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE completed the bare minimum required to pass the course.
+
+
+
+
 
 
 
@@ -197,7 +351,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE did not take advantage of the opportunity to come in during Flex or Assessment Week to complete missing assignments.
+
+
+
+
 
 
 
@@ -205,7 +367,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE put in a great effort during assessment week to ensure a pass in the course.
+
+
+
+
 
 
 
@@ -213,7 +383,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Unfortunately, XIS lack of punctuality/attendance prevented XIM from being successful in this course.
+
+
+
+
 
 
 
@@ -221,7 +399,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Unfortunately, XE was not motivated to complete enough assignments to demonstrate the minimum learning required to pass this course.
+
+
+
+
 
 
 
@@ -229,7 +415,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE was not present for the majority of the semester.
+
+
+
+
 
 
 
@@ -237,7 +431,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  XE stopped participating in this course and as a result was unable to demonstrate the minimum learning required to pass the course.
+
+
+
+
 
 
 
@@ -245,7 +447,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  The language barrier may have been too high too succeed in this course full of technical language.
+
+
+
+
 
 
 
@@ -253,7 +463,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I do, however, hope that XE returns to the Hackerspace for a future course to give it another try.
+
+
+
+
 
 
 
@@ -261,7 +479,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I look forward to having XIM back next semester.
+
+
+
+
 
 
 
@@ -269,7 +495,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  If XE returns in the future for another course in the Hackerspace I would encourage XIM to take advantage of the many other digital tools that are available to learn about.
+
+
+
+
 
 
 
@@ -277,7 +511,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I am excited to see what XE does with XIS programming skills in future courses!
+
+
+
+
 
 
 
@@ -285,7 +527,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I am excited to see what XE does with XIS game design skills in future courses!
+
+
+
+
 
 
 
@@ -293,7 +543,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I am excited to see what XE does with XIS digital photography skills in future courses!
+
+
+
+
 
 
 
@@ -301,7 +559,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I look forward to having XIM back in the future for another course in Timberline's Digital Hackerspace.
+
+
+
+
 
 
 
@@ -309,7 +575,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  I hope XE returns for another course in the Hackerspace to expand on the game design and programming skills XE learned working in the Unity Game Engine this semester.
+
+
+
+
 
 
 
@@ -317,7 +591,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  It was a pleasure having you as a student for the past several years.
+
+
+
+
 
 
 
@@ -325,7 +607,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Good luck in life and keep in touch!
+
+
+
+
 
 
 
@@ -333,7 +623,15 @@ XIS limited attendance so far this semester is preventing XIM from succeeding in
 
 
 
+
+
+
+
  Good luck with life after high school NAME!
+
+
+
+
 
 
 
