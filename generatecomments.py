@@ -302,7 +302,7 @@ class CommentGenerator:
             print("change (g)ender or (n)ame | "
                   "(c)ustom comment | "
                   "(r)emove or (m)ove a comment | "
-                  "(s)ave and (n)ext or save and (q)uit"
+                  "(s)ave and ne(x)t or save and (q)uit"
                   )
 
             choice = input()
@@ -314,7 +314,7 @@ class CommentGenerator:
             elif choice == 's':
                 self.save()
                 return None, "complete"
-            elif choice == 'n':
+            elif choice == 'x':
                 return None, "complete"
             elif choice == 'r':
                 self.remove_comment(student)
