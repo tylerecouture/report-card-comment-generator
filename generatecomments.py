@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 import csv
 import itertools
 import os
